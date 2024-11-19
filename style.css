@@ -1,0 +1,56 @@
+*{
+    font-family:  Verdana;
+}
+body{
+    min-height: 100vh;
+    color: #f6f6f6;
+    background-color: rgba(0, 0, 0, 0.927);
+}
+nav{
+    padding: 20px;
+    text-align: end;
+}
+a{
+    text-decoration: none;
+    color: #f6f6f6;
+    margin-right: 30px;
+}
+a.izquierda{
+    float: left;
+    font-size: 16x;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+main{
+    background: linear-gradient(#371d3b84, #00000079), url(https://www.allkpop.com/upload/2023/11/content/091100/web_data/allkpop_1699545904_untitled-1.jpg);
+    background-size: cover;
+    padding: 60px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 80px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+h1 img{
+    width: 80px;
+}
+h3{
+    width: 50%;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+button{
+    border: none;
+    background-color: #5d45e0;
+    color: #f6f6f6;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+button a{
+    margin: 0;
+}
